@@ -1,0 +1,23 @@
+# Временные файлы файловой базы 1С
+**/1Cv8.1CD
+**/1Cv8tmp.1CD
+**/1Cv8.1CL
+**/1Cv8tmp.1CL
+*.cfl
+**/1Cv8Log/
+**/1Cv8JobScheduler/
+
+# Логи и трейсы платформы
+**/dumps/
+*.log
+*.v8log
+
+# Настройки пользователя Конфигуратора / EDT
+**/1Cv8.dtc
+**/.edm/
+**/bin/
+**/.recommenders/
+
+# OS-специфичные файлы
+.DS_Store
+Thumbs.db
