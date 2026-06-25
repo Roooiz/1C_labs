@@ -263,6 +263,8 @@
 			<Document>ЗаказКлиента</Document>
 			<Document>РеализацияТоваровИУслуг</Document>
 			<Document>ПоступлениеТоваровИУслуг</Document>
+			<Document>ПоступлениеДенег</Document>
+			<Document>РасходДенег</Document>
 			<Enum>ТипыКонтрагентов</Enum>
 			<Enum>ЭтапыОплаты</Enum>
 			<Enum>СтатусыДоговора</Enum>
