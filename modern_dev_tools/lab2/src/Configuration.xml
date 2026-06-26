@@ -265,6 +265,8 @@
 			<Document>ПоступлениеТоваровИУслуг</Document>
 			<Document>ПоступлениеДенег</Document>
 			<Document>РасходДенег</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>Инвентаризация</Document>
 			<Enum>ТипыКонтрагентов</Enum>
 			<Enum>ЭтапыОплаты</Enum>
 			<Enum>СтатусыДоговора</Enum>
