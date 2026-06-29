@@ -134,8 +134,8 @@
 			<Metadata name="Document.ПоступлениеТоваровИУслуг.TabularSection.Товары" id="ea003751-1969-459c-af8b-0164c115933b"/>
 			<Metadata name="Document.ПоступлениеТоваровИУслуг.TabularSection.Товары.Attribute.Количество" id="f052fd55-caf9-45c3-9a21-15cbc74fad5a"/>
 		</Metadata>
-		<Metadata name="Document.ПоступлениеТоваровИУслуг.Form.ФормаДокумента" id="881b032a-d450-47cc-ad66-4287155eb80b" configVersion="abbabacf9142fb44861958e2b1720d8f00000000"/>
-		<Metadata name="Document.ПоступлениеТоваровИУслуг.Form.ФормаДокумента.Form" id="881b032a-d450-47cc-ad66-4287155eb80b.0" configVersion="b77a8c7fdb10db42a376222d3f072c5400000000"/>
+		<Metadata name="Document.ПоступлениеТоваровИУслуг.Form.ФормаДокумента" id="881b032a-d450-47cc-ad66-4287155eb80b" configVersion="a8ea17d832ee434eaa6f6be09b886d0e00000000"/>
+		<Metadata name="Document.ПоступлениеТоваровИУслуг.Form.ФормаДокумента.Form" id="881b032a-d450-47cc-ad66-4287155eb80b.0" configVersion="1e0c68cb3f145640853989a0b8b392d800000000"/>
 		<Metadata name="Document.ПоступлениеТоваровИУслуг.ObjectModule" id="e4967052-43a6-49f9-b24e-c1739839a994.0" configVersion="52442b7d8940224a9eca6ed3b66792b200000000"/>
 		<Metadata name="Document.РасходДенег" id="d64d6d31-2834-4089-8b00-331c547d0bb1" configVersion="71aec28a2dd8de43a29d944cea28211100000000">
 			<Metadata name="Document.РасходДенег.Attribute.Сумма" id="0d24e4cf-ab11-44fa-8c0a-84064847ed48"/>
