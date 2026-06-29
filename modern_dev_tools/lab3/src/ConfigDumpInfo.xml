@@ -78,7 +78,7 @@
 			<Metadata name="Catalog.Сотрудники.Attribute.ДатаПриема" id="ec77cf50-73c1-4c90-9f40-86dc256821b7"/>
 		</Metadata>
 		<Metadata name="Configuration.Конфигурация" id="4cc8cbc4-36f6-4e05-9f79-bcd7655d72c5" configVersion="286765f709a8b046b3236b391c6a936d00000000"/>
-		<Metadata name="Document.ЗаказКлиента" id="8a228c6f-ffb8-4371-91a0-b2cff04b078e" configVersion="de5bea4911cc35438c640b9ccf754d7e00000000">
+		<Metadata name="Document.ЗаказКлиента" id="8a228c6f-ffb8-4371-91a0-b2cff04b078e" configVersion="4a2264492228854eac7b4b5e4f5225e800000000">
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Сумма" id="2849fa1b-6181-4a99-89c3-32ff39d083a9"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.Комментарий" id="2da7fe66-54d5-472e-ba9a-1be5952482f0"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары" id="396f87ff-0f12-4c97-844d-4132ee3252e5"/>
@@ -87,20 +87,23 @@
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Номенклатура" id="81e280c0-05e6-4028-ab0e-ec18b328610b"/>
 			<Metadata name="Document.ЗаказКлиента.TabularSection.Товары.Attribute.Количество" id="ba6cbf4c-66e4-474b-a15a-eda01c38ef6e"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.Клиент" id="d4a5b925-57e5-41bd-a306-76bace511c5d"/>
-			<Metadata name="Document.ЗаказКлиента.Attribute.Количество" id="dc5f0e83-87a9-4e79-8526-531ac9ab18dc"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.Склад" id="f84e2799-da45-46b7-99ba-28ce349f61bf"/>
 		</Metadata>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="5930c589-476a-495a-8c63-1321d0610a2f" configVersion="719a78d7ec8ea643bb9f75d286985fed00000000"/>
 		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="5930c589-476a-495a-8c63-1321d0610a2f.0" configVersion="f2c19f9739c735489b9140904db6d59300000000"/>
-		<Metadata name="Document.Инвентаризация" id="2f759529-32ed-4a56-a973-1c8df7557d04" configVersion="4423384c73990f4fa26b2106254aeedc00000000">
+		<Metadata name="Document.Инвентаризация" id="2f759529-32ed-4a56-a973-1c8df7557d04" configVersion="de5ca9c396124e4095334dabe17969ee00000000">
 			<Metadata name="Document.Инвентаризация.TabularSection.Товары" id="1546ada5-28f5-4e37-bc73-3428da857bcd"/>
+			<Metadata name="Document.Инвентаризация.TabularSection.Товары.Attribute.Разница" id="609db1fa-97e0-4cc5-8421-a52e18c07d7d"/>
 			<Metadata name="Document.Инвентаризация.TabularSection.Товары.Attribute.Номенклатура" id="6a3076b4-5f47-4d70-9541-a48bf1089fc5"/>
 			<Metadata name="Document.Инвентаризация.Attribute.Склад" id="6cc26514-8b0f-46bd-b92b-889ca6456238"/>
-			<Metadata name="Document.Инвентаризация.TabularSection.Товары.Attribute.Количество" id="8e9fda9d-b4fe-4f3d-a57a-3256e6a0d6cd"/>
+			<Metadata name="Document.Инвентаризация.TabularSection.Товары.Attribute.КоличествоУчетное" id="8e9fda9d-b4fe-4f3d-a57a-3256e6a0d6cd"/>
 			<Metadata name="Document.Инвентаризация.Attribute.Ответственный" id="ca422818-af4f-4be3-abf1-4cbf15bbb867"/>
+			<Metadata name="Document.Инвентаризация.TabularSection.Товары.Attribute.КоличествоФактическое" id="d6650e98-b36b-4b75-a528-f1c843fa8cfd"/>
 			<Metadata name="Document.Инвентаризация.Attribute.Комментацрий" id="dcee2442-eec2-4525-8e2d-226d11c62ed2"/>
 		</Metadata>
-		<Metadata name="Document.ПеремещениеТоваров" id="f212a5c5-c503-4cd1-8cbf-197409a713ac" configVersion="83da31d4a7ea844a83b00cfdae72ef3100000000">
+		<Metadata name="Document.Инвентаризация.Form.ФормаДокумента" id="d1e1e747-0934-477e-b4cc-cfeedd680a42" configVersion="dd2e53d5d5af6842a6e7dfaed907077600000000"/>
+		<Metadata name="Document.Инвентаризация.Form.ФормаДокумента.Form" id="d1e1e747-0934-477e-b4cc-cfeedd680a42.0" configVersion="04467341d629134d90a94bd1ca74b93100000000"/>
+		<Metadata name="Document.ПеремещениеТоваров" id="f212a5c5-c503-4cd1-8cbf-197409a713ac" configVersion="0be3d5bd9cd6b44690b15007b6a2207500000000">
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары" id="0a1a4c2c-77d9-4968-b621-2c834a1295f3"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Цена" id="575859d1-ed69-40fa-92ea-1b96ff28fbb2"/>
 			<Metadata name="Document.ПеремещениеТоваров.TabularSection.Товары.Attribute.Количество" id="59ea1da5-3e44-4f27-863a-e1222a2650fa"/>
@@ -122,7 +125,7 @@
 			<Metadata name="Document.ПоступлениеДенег.Attribute.Договор" id="fda2ea69-bdd2-4082-8b9b-9a6e23f7634d"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеДенег.ObjectModule" id="09fd87b0-f8f9-45d9-b5f5-06f1221fd296.0" configVersion="2ed3b922dd40ed4b87c008a1cf6a58c100000000"/>
-		<Metadata name="Document.ПоступлениеТоваровИУслуг" id="e4967052-43a6-49f9-b24e-c1739839a994" configVersion="db81f28600e69c47911b2d1a9950ff7a00000000">
+		<Metadata name="Document.ПоступлениеТоваровИУслуг" id="e4967052-43a6-49f9-b24e-c1739839a994" configVersion="5bcf95480f59314e8b6dea9799276d4400000000">
 			<Metadata name="Document.ПоступлениеТоваровИУслуг.Attribute.Склад" id="1abc22be-62c3-477d-9f47-effd19ed9f3b"/>
 			<Metadata name="Document.ПоступлениеТоваровИУслуг.Attribute.Автор" id="2762fd2f-3bdf-48d8-8e2d-895afcfe3b6c"/>
 			<Metadata name="Document.ПоступлениеТоваровИУслуг.TabularSection.Товары.Attribute.Цена" id="2aad4e98-54a1-4aa4-be3b-9ffb849ebd45"/>
@@ -146,7 +149,7 @@
 			<Metadata name="Document.РасходДенег.Attribute.Договор" id="d0641a37-946c-4e68-810d-a43383ad6739"/>
 		</Metadata>
 		<Metadata name="Document.РасходДенег.ObjectModule" id="d64d6d31-2834-4089-8b00-331c547d0bb1.0" configVersion="58fd9433b834454b933c44cf80420f6e00000000"/>
-		<Metadata name="Document.РеализацияТоваровИУслуг" id="2242c3a8-7953-4e5c-9a3c-92b4ff502500" configVersion="8c7df66c1777a2439cc6e4ae7c58719800000000">
+		<Metadata name="Document.РеализацияТоваровИУслуг" id="2242c3a8-7953-4e5c-9a3c-92b4ff502500" configVersion="a2b83244ee6c2e4d87f17721930bfa0b00000000">
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Комментарий" id="234bfaf1-83ad-4814-90a3-f45fec9b339a"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.TabularSection.Товары.Attribute.Номенклатура" id="4c5882bf-6d09-4f60-a1a6-654c45cf0c6f"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.TabularSection.Товары.Attribute.Сумма" id="4cebbbd2-93f6-4cf6-9583-8c265aa8befb"/>

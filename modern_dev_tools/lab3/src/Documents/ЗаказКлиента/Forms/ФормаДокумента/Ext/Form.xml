@@ -48,7 +48,7 @@
 			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="18"/>
 		</InputField>
 		<InputField name="Количество" id="19">
-			<DataPath>Объект.Количество</DataPath>
+			<DataPath>1/0:dc5f0e83-87a9-4e79-8526-531ac9ab18dc</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 			<ContextMenu name="КоличествоКонтекстноеМеню" id="20"/>
