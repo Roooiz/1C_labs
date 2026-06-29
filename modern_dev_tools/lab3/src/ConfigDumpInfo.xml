@@ -90,8 +90,8 @@
 			<Metadata name="Document.ЗаказКлиента.Attribute.Количество" id="dc5f0e83-87a9-4e79-8526-531ac9ab18dc"/>
 			<Metadata name="Document.ЗаказКлиента.Attribute.Склад" id="f84e2799-da45-46b7-99ba-28ce349f61bf"/>
 		</Metadata>
-		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="5930c589-476a-495a-8c63-1321d0610a2f" configVersion="404b9df3f4744b428a63773127d0cc2c00000000"/>
-		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="5930c589-476a-495a-8c63-1321d0610a2f.0" configVersion="4c574269f8bbc44bb36ff60bc0e0931500000000"/>
+		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента" id="5930c589-476a-495a-8c63-1321d0610a2f" configVersion="719a78d7ec8ea643bb9f75d286985fed00000000"/>
+		<Metadata name="Document.ЗаказКлиента.Form.ФормаДокумента.Form" id="5930c589-476a-495a-8c63-1321d0610a2f.0" configVersion="f2c19f9739c735489b9140904db6d59300000000"/>
 		<Metadata name="Document.Инвентаризация" id="2f759529-32ed-4a56-a973-1c8df7557d04" configVersion="4423384c73990f4fa26b2106254aeedc00000000">
 			<Metadata name="Document.Инвентаризация.TabularSection.Товары" id="1546ada5-28f5-4e37-bc73-3428da857bcd"/>
 			<Metadata name="Document.Инвентаризация.TabularSection.Товары.Attribute.Номенклатура" id="6a3076b4-5f47-4d70-9541-a48bf1089fc5"/>
@@ -158,8 +158,8 @@
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Склад" id="fe00ebf8-7b67-494e-8936-807c22fb3a26"/>
 			<Metadata name="Document.РеализацияТоваровИУслуг.Attribute.Автор" id="ffdf07b3-2c4a-4f62-877a-e57d2f295ecf"/>
 		</Metadata>
-		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента" id="e2e1eb60-a5e0-46e6-95fe-eac36038a3c9" configVersion="31de46f49d5865499914e60c63e4235900000000"/>
-		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента.Form" id="e2e1eb60-a5e0-46e6-95fe-eac36038a3c9.0" configVersion="93b93730926477468c38140e1eab5e3b00000000"/>
+		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента" id="e2e1eb60-a5e0-46e6-95fe-eac36038a3c9" configVersion="b324aa95a337c5488ed1b9a183f9400e00000000"/>
+		<Metadata name="Document.РеализацияТоваровИУслуг.Form.ФормаДокумента.Form" id="e2e1eb60-a5e0-46e6-95fe-eac36038a3c9.0" configVersion="0c63119123c5de47a882319ad87ececf00000000"/>
 		<Metadata name="Document.РеализацияТоваровИУслуг.ObjectModule" id="2242c3a8-7953-4e5c-9a3c-92b4ff502500.0" configVersion="c90d5f972c61ad40bcfeed1c4fbee75f00000000"/>
 		<Metadata name="Enum.СтатусСклада" id="d1d69270-ec53-434d-a2e9-9c1141a6d1e2" configVersion="6b1c52f85b4fd347a5b630a7b1e4af0800000000">
 			<Metadata name="Enum.СтатусСклада.EnumValue.Активен" id="68591715-3bb1-42f5-b617-5784148bf451"/>
