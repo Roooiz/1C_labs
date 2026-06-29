@@ -95,7 +95,7 @@
 					<ContextMenu name="ТоварыКоличествоКонтекстноеМеню" id="36"/>
 					<ExtendedTooltip name="ТоварыКоличествоРасширеннаяПодсказка" id="37"/>
 					<Events>
-						<Event name="OnChange">ТоварыКоличествоПриИзменении</Event>
+						<Event name="OnChange">ТоварыЦенаПриИзменении</Event>
 					</Events>
 				</InputField>
 				<InputField name="ТоварыЦена" id="38">
