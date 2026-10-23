@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.20">
+	<Item id="418a6598-e8b2-4dd5-9c15-4b789840d616">
+		<Name>МладшийКадровик</Name>
+		<Code>000000002</Code>
+		<Description>Младший кадровик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b0544ebe-f3f0-46a1-a17b-a6d58dda7d5c">
+		<Name>Расчетчик</Name>
+		<Code>000000003</Code>
+		<Description>Расчетчик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d8ae0b82-5a97-4ec7-8d23-9b76171528d1">
+		<Name>СтаршийКадровик</Name>
+		<Code>000000001</Code>
+		<Description>Старший кадровик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
