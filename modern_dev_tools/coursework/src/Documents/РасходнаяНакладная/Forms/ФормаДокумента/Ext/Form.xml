@@ -5,6 +5,12 @@
 	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<ChildItems>
+		<InputField name="Заказ" id="65">
+			<DataPath>Объект.Заказ</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЗаказКонтекстноеМеню" id="66"/>
+			<ExtendedTooltip name="ЗаказРасширеннаяПодсказка" id="67"/>
+		</InputField>
 		<InputField name="Номер" id="1">
 			<DataPath>Объект.Number</DataPath>
 			<EditMode>EnterOnInput</EditMode>

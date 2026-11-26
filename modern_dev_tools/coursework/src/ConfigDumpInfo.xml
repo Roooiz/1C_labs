@@ -158,8 +158,8 @@
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.ПереченьНоменклатуры" id="f148cf87-7eed-4208-afcc-2bf736701931"/>
 			<Metadata name="Document.РасходнаяНакладная.TabularSection.ПереченьНоменклатуры.Attribute.СуммаНДС" id="ffec4b1c-45e6-4bce-b4a8-8ca3902d2a55"/>
 		</Metadata>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="615590f3-d12f-4ad1-be63-06d2a2d3c875" configVersion="16aa3018398f7a4bb32a73f9506c227a00000000"/>
-		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="615590f3-d12f-4ad1-be63-06d2a2d3c875.0" configVersion="c528317137b2654f98316a49ab95099b00000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента" id="615590f3-d12f-4ad1-be63-06d2a2d3c875" configVersion="b3f126dcf887b449abbf41476c4fc77400000000"/>
+		<Metadata name="Document.РасходнаяНакладная.Form.ФормаДокумента.Form" id="615590f3-d12f-4ad1-be63-06d2a2d3c875.0" configVersion="868d8dc78427a94d8b57854e42ff659c00000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Form.ФормаСписка" id="3cf1de5c-5a68-40fb-877d-60fcf9302f7a" configVersion="c22ecfd5e0352e45af9bd021302ae91100000000"/>
 		<Metadata name="Document.РасходнаяНакладная.Form.ФормаСписка.Form" id="3cf1de5c-5a68-40fb-877d-60fcf9302f7a.0" configVersion="7a259b0deaa2b143b8a79d964ee92b8300000000"/>
 		<Metadata name="Document.РасходнаяНакладная.ObjectModule" id="157d9c33-1bea-44ab-b4ac-48b6873bcb1d.0" configVersion="a553eb97866811469371d2e0603e8e9800000000"/>
