@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.17">
+	<ChartOfCharacteristicTypes uuid="bb1924a2-3009-4b8d-9bee-e2f370d7e94f">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.СвойстваНоменклатуры" category="Object">
+				<xr:TypeId>714902d9-4892-4f84-a9d8-c2964b328475</xr:TypeId>
+				<xr:ValueId>8f686dbb-5103-42bd-98b8-764d1f4241b0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.СвойстваНоменклатуры" category="Ref">
+				<xr:TypeId>7445b7c9-baad-4bdc-8b83-888de5763ff0</xr:TypeId>
+				<xr:ValueId>0348833e-38ff-44c6-969f-29f73db0d458</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.СвойстваНоменклатуры" category="Selection">
+				<xr:TypeId>8529536f-401e-4fb7-9b51-877ccc2d2581</xr:TypeId>
+				<xr:ValueId>edee9349-bfa5-4508-8d0c-25362d2d852a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.СвойстваНоменклатуры" category="List">
+				<xr:TypeId>0988e460-6765-42ee-9eb4-e7fa52f1967c</xr:TypeId>
+				<xr:ValueId>fd161448-2321-40d7-9db9-5df4556a2301</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.СвойстваНоменклатуры" category="Characteristic">
+				<xr:TypeId>5a413617-caf6-4931-9367-ac83aa7ef529</xr:TypeId>
+				<xr:ValueId>678bb1f7-880a-4928-bc60-cf5727797b1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.СвойстваНоменклатуры" category="Manager">
+				<xr:TypeId>9c33c23d-4b39-4fa2-ab72-a1d1d51166bf</xr:TypeId>
+				<xr:ValueId>2e030f6a-e66f-41ee-96ca-51f684cd8269</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СвойстваНоменклатуры</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Свойства номенклатуры</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<CharacteristicExtValues>Catalog.ЗначенияСвойств</CharacteristicExtValues>
+			<Type>
+				<v8:Type>cfg:CatalogRef.ЗначенияСвойств</v8:Type>
+				<v8:Type>xs:boolean</v8:Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+				<v8:StringQualifiers>
+					<v8:Length>10</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+			<Hierarchical>false</Hierarchical>
+			<FoldersOnTop>true</FoldersOnTop>
+			<CodeLength>9</CodeLength>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
+			<DescriptionLength>25</DescriptionLength>
+			<CodeSeries>WholeCharacteristicKind</CodeSeries>
+			<CheckUnique>true</CheckUnique>
+			<Autonumbering>true</Autonumbering>
+			<DefaultPresentation>AsDescription</DefaultPresentation>
+			<Characteristics/>
+			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
+			<EditType>InDialog</EditType>
+			<QuickChoice>false</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<InputByString>
+				<xr:Field>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Description</xr:Field>
+				<xr:Field>ChartOfCharacteristicTypes.СвойстваНоменклатуры.StandardAttribute.Code</xr:Field>
+			</InputByString>
+			<CreateOnInput>DontUse</CreateOnInput>
+			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
+			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
+			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+			<DefaultObjectForm/>
+			<DefaultFolderForm/>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<DefaultFolderChoiceForm/>
+			<AuxiliaryObjectForm/>
+			<AuxiliaryFolderForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<AuxiliaryFolderChoiceForm/>
+			<BasedOn/>
+			<DataLockFields/>
+			<DataLockControlMode>Managed</DataLockControlMode>
+			<FullTextSearch>Use</FullTextSearch>
+			<ObjectPresentation/>
+			<ExtendedObjectPresentation/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<DataHistory>DontUse</DataHistory>
+			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
+			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>
