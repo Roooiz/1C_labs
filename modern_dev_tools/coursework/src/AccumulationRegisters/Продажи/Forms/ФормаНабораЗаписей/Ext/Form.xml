@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<Table name="НаборЗаписей" id="1">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>НаборЗаписей</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="НаборЗаписейКонтекстноеМеню" id="2"/>
+			<AutoCommandBar name="НаборЗаписейКоманднаяПанель" id="3"/>
+			<ExtendedTooltip name="НаборЗаписейРасширеннаяПодсказка" id="4"/>
+			<SearchStringAddition name="НаборЗаписейСтрокаПоиска" id="5">
+				<AdditionSource>
+					<Item>НаборЗаписей</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НаборЗаписейСтрокаПоискаКонтекстноеМеню" id="6"/>
+				<ExtendedTooltip name="НаборЗаписейСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="НаборЗаписейСостояниеПросмотра" id="8">
+				<AdditionSource>
+					<Item>НаборЗаписей</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="НаборЗаписейСостояниеПросмотраКонтекстноеМеню" id="9"/>
+				<ExtendedTooltip name="НаборЗаписейСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="НаборЗаписейУправлениеПоиском" id="11">
+				<AdditionSource>
+					<Item>НаборЗаписей</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="НаборЗаписейУправлениеПоискомКонтекстноеМеню" id="12"/>
+				<ExtendedTooltip name="НаборЗаписейУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnActivateRow">НаборЗаписейПриАктивизацииСтроки</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="НомерСтроки" id="14">
+					<DataPath>НаборЗаписей.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НомерСтрокиКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="НомерСтрокиРасширеннаяПодсказка" id="16"/>
+				</LabelField>
+				<InputField name="Регистратор" id="17">
+					<DataPath>НаборЗаписей.Recorder</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="РегистраторКонтекстноеМеню" id="18"/>
+					<ExtendedTooltip name="РегистраторРасширеннаяПодсказка" id="19"/>
+				</InputField>
+				<InputField name="Период" id="20">
+					<DataPath>НаборЗаписей.Period</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ПериодКонтекстноеМеню" id="21"/>
+					<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="22"/>
+				</InputField>
+				<InputField name="Номенклатура" id="23">
+					<DataPath>НаборЗаписей.Номенклатура</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НоменклатураКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="25"/>
+				</InputField>
+				<InputField name="Контрагент" id="26">
+					<DataPath>НаборЗаписей.Контрагент</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КонтрагентКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="28"/>
+				</InputField>
+				<InputField name="Мастер" id="29">
+					<DataPath>НаборЗаписей.Мастер</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МастерКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="МастерРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="Количество" id="32">
+					<DataPath>НаборЗаписей.Количество</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>НаборЗаписей.TotalКоличество</FooterDataPath>
+					<ContextMenu name="КоличествоКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="Выручка" id="35">
+					<DataPath>НаборЗаписей.Выручка</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>НаборЗаписей.TotalВыручка</FooterDataPath>
+					<FooterText>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Всего:</v8:content>
+						</v8:item>
+					</FooterText>
+					<ContextMenu name="ВыручкаКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ВыручкаРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="Стоимость" id="38">
+					<DataPath>НаборЗаписей.Стоимость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>НаборЗаписей.TotalСтоимость</FooterDataPath>
+					<FooterText>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итого:</v8:content>
+						</v8:item>
+					</FooterText>
+					<ContextMenu name="СтоимостьКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СтоимостьРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="Остаток" id="41">
+					<DataPath>НаборЗаписей.Остаток</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОстатокКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ОстатокРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="НаборЗаписей" id="1">
+			<Type>
+				<v8:Type>cfg:AccumulationRegisterRecordSet.Продажи</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+</Form>
