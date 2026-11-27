@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<AccumulationRegister uuid="d4a6f7fd-5921-4d59-8d16-a0be3b730959">
+	<AccumulationRegister uuid="0c04542f-5b4c-4158-9342-a9ba58900e3b">
 		<InternalInfo>
 			<xr:GeneratedType name="AccumulationRegisterRecord.РезервыТоваров" category="Record">
-				<xr:TypeId>d6dced48-92df-452b-80bb-88e7700565db</xr:TypeId>
-				<xr:ValueId>cd0ae1cd-8fe7-463f-8dbd-e9a116e70c6b</xr:ValueId>
+				<xr:TypeId>3b784a64-16b7-4280-9860-8ce330406c1f</xr:TypeId>
+				<xr:ValueId>3261afa7-6fc4-4740-9df1-3ab42111c214</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterManager.РезервыТоваров" category="Manager">
-				<xr:TypeId>21ab3c05-a0e3-4a2a-b45f-a0f39e6ea367</xr:TypeId>
-				<xr:ValueId>e9c2d6a6-08ac-4c6d-a579-552dc8857547</xr:ValueId>
+				<xr:TypeId>af0094d9-b276-4a9c-a04b-4fbe453b85c0</xr:TypeId>
+				<xr:ValueId>7b57fc9b-6a64-42f7-96a4-082fb9fc73ac</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterSelection.РезервыТоваров" category="Selection">
-				<xr:TypeId>4e5eb3a3-65f0-410a-961d-ff0880f9c721</xr:TypeId>
-				<xr:ValueId>c573d5cd-d4bc-4f9c-931f-e9fc1c40af8d</xr:ValueId>
+				<xr:TypeId>978f4a0a-f16b-4426-8af1-a139e27617f2</xr:TypeId>
+				<xr:ValueId>e316c700-3ed6-4c9e-8dd5-b04333a7fcb7</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterList.РезервыТоваров" category="List">
-				<xr:TypeId>60ca1f98-be76-4630-826a-3ef1fc99f054</xr:TypeId>
-				<xr:ValueId>82afea98-bd30-48a2-803d-a6d0ca6d3e87</xr:ValueId>
+				<xr:TypeId>a0c10564-2334-47c1-b37e-39dd0a69735e</xr:TypeId>
+				<xr:ValueId>d1b57015-f7d5-4160-ade4-5b1edd7ba729</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordSet.РезервыТоваров" category="RecordSet">
-				<xr:TypeId>2d379272-7ec0-489f-a237-a3d61c3338b9</xr:TypeId>
-				<xr:ValueId>9f64c0d8-2b0c-4e14-8521-a827bc45e248</xr:ValueId>
+				<xr:TypeId>ae622a7f-38c0-4e41-929d-3ad6345bcead</xr:TypeId>
+				<xr:ValueId>32b3060f-f727-4718-826f-df68f577e1a8</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="AccumulationRegisterRecordKey.РезервыТоваров" category="RecordKey">
-				<xr:TypeId>986c2524-1029-42fb-ac29-1bc2bff22ca6</xr:TypeId>
-				<xr:ValueId>bd43641c-73d4-4be2-8484-c12df3e092e1</xr:ValueId>
+				<xr:TypeId>2ce38412-bb29-4080-a5aa-b4ee915dd90e</xr:TypeId>
+				<xr:ValueId>73620363-985b-4737-acd5-50099ef1330f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -49,7 +49,7 @@
 			<Explanation/>
 		</Properties>
 		<ChildObjects>
-			<Resource uuid="3dfa107f-2ab5-495d-b2b9-87b1c21e49b4">
+			<Resource uuid="e82ffb36-4e16-4153-8c72-d3219ea98046">
 				<Properties>
 					<Name>Количество</Name>
 					<Synonym>
@@ -89,18 +89,18 @@
 					<FullTextSearch>Use</FullTextSearch>
 				</Properties>
 			</Resource>
-			<Dimension uuid="abf7c4d9-a337-4a85-b851-4b368c03dc1a">
+			<Dimension uuid="bd838182-1133-42d1-98f9-5bd4efc85164">
 				<Properties>
-					<Name>Заказ</Name>
+					<Name>Товар</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Заказ</v8:content>
+							<v8:content>Товар</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>
@@ -127,18 +127,18 @@
 					<UseInTotals>true</UseInTotals>
 				</Properties>
 			</Dimension>
-			<Dimension uuid="4dedfa88-d677-4d28-906b-b99f17cbd674">
+			<Dimension uuid="0f6db31d-8248-4830-99f4-2d7e8b4755e0">
 				<Properties>
-					<Name>Товар</Name>
+					<Name>Заказ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Товар</v8:content>
+							<v8:content>Заказ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
 					<Type>
-						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПокупателя</v8:Type>
 					</Type>
 					<PasswordMode>false</PasswordMode>
 					<Format/>

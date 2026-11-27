@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="64524f71-e1cf-4a2f-9394-3ba1047c53dc">
+	<Catalog uuid="923b38f8-e5f4-41bd-a6a7-86a41a71a513">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Контрагенты" category="Object">
-				<xr:TypeId>b1c38c0e-6e8d-4847-a0d4-cf9a30b2d9d2</xr:TypeId>
-				<xr:ValueId>8d4796e0-fb3b-4404-abf5-12ffcebac61d</xr:ValueId>
+				<xr:TypeId>aaee37e1-3f89-4f23-9897-0f3cedf1ba97</xr:TypeId>
+				<xr:ValueId>c86cf0cf-ab3d-4aef-9321-2c6828a4a9b4</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Контрагенты" category="Ref">
-				<xr:TypeId>f32ef2d9-60d7-4bc3-90b7-9c62ef7118e8</xr:TypeId>
-				<xr:ValueId>0e6e3ba9-df4c-4362-9b2f-40d50642636e</xr:ValueId>
+				<xr:TypeId>e96a2845-8daf-4b55-96bd-31a8b97d1448</xr:TypeId>
+				<xr:ValueId>c7b552cf-7321-4dbf-8a5d-93f8e380b793</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Контрагенты" category="Selection">
-				<xr:TypeId>e93104ce-3ce0-44a0-8300-c5da24db5e6c</xr:TypeId>
-				<xr:ValueId>5d575723-5a2e-4266-aa6d-f6b7b24fa333</xr:ValueId>
+				<xr:TypeId>6ef5c4fb-8239-4844-b45f-b5d7605c646e</xr:TypeId>
+				<xr:ValueId>b65bd35c-b767-4247-ad06-8500cfc92bb6</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Контрагенты" category="List">
-				<xr:TypeId>e9c5ec1b-903e-4f56-a1a1-4b5ad88916e9</xr:TypeId>
-				<xr:ValueId>3e83ebf1-8f2b-4951-8f5a-38c8a145e26a</xr:ValueId>
+				<xr:TypeId>16dbeee8-2f0f-4da4-ac01-4f0ec0757819</xr:TypeId>
+				<xr:ValueId>b2b272cc-522c-4cd0-bd2e-58b4dd6482a9</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Контрагенты" category="Manager">
-				<xr:TypeId>b1b7c33e-67ac-47a8-b04b-662babe6ec7e</xr:TypeId>
-				<xr:ValueId>f8772534-b536-48d2-a954-fdfbbc0e7006</xr:ValueId>
+				<xr:TypeId>d22ae18f-3bc0-4f86-a53e-9166966e9a7f</xr:TypeId>
+				<xr:ValueId>43b70abc-a74d-4e5b-ab24-a28b565a92a6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>50</DescriptionLength>
+			<DescriptionLength>25</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -86,96 +86,6 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects>
-			<Attribute uuid="4da7d145-4f7e-4316-a4d2-780eb2388592">
-				<Properties>
-					<Name>ПолноеНаименование</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Полное наименование</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="695fdd95-5dec-4b25-9742-e543a9ec5256">
-				<Properties>
-					<Name>ИНН</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>ИНН</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>12</v8:Digits>
-							<v8:FractionDigits>0</v8:FractionDigits>
-							<v8:AllowedSign>Any</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-		</ChildObjects>
+		<ChildObjects/>
 	</Catalog>
 </MetaDataObject>

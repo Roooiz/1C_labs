@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Catalog uuid="6da4339d-64f4-4aed-997a-5fefb5bcfa8e">
+	<Catalog uuid="b563e12b-42b3-4850-ba7a-7ba41a2b1b42">
 		<InternalInfo>
 			<xr:GeneratedType name="CatalogObject.Склады" category="Object">
-				<xr:TypeId>77bcebec-60c6-4128-a824-b9f6ad6283a5</xr:TypeId>
-				<xr:ValueId>e9eea6fb-e2a6-483b-8b7d-d9875b0e659d</xr:ValueId>
+				<xr:TypeId>3bf4f1ad-b167-46eb-9fef-e637cf6489d1</xr:TypeId>
+				<xr:ValueId>937b8ff5-6d01-46b7-bda9-004fb159b971</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogRef.Склады" category="Ref">
-				<xr:TypeId>0231c937-4224-4e9a-8bf1-70f3489bea8e</xr:TypeId>
-				<xr:ValueId>a4aa80d5-5ebb-45a9-b385-b32becfbd1f4</xr:ValueId>
+				<xr:TypeId>c4b338fb-2d27-425a-9eb8-80a4397ca2c9</xr:TypeId>
+				<xr:ValueId>1f7911d9-1b8e-4409-9d74-23580da2029e</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogSelection.Склады" category="Selection">
-				<xr:TypeId>141ffa7e-e380-46b9-8cd9-01294cc614b5</xr:TypeId>
-				<xr:ValueId>7d80f3f5-01c6-45c8-84d5-c72c4a2a05ab</xr:ValueId>
+				<xr:TypeId>e15b7617-b02e-4b4e-962c-9958655cec37</xr:TypeId>
+				<xr:ValueId>f8350283-fe7d-48d8-96db-1908f75cb5f3</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogList.Склады" category="List">
-				<xr:TypeId>9e9a7e9a-f879-4683-a4dd-37c16a6c135e</xr:TypeId>
-				<xr:ValueId>38c49498-1b81-4ada-b686-011d9ee8fde6</xr:ValueId>
+				<xr:TypeId>7f86dbfa-c2f3-4c09-ab40-77704fafc80a</xr:TypeId>
+				<xr:ValueId>5184d26a-2e6a-465c-8d8b-c44506ac6e87</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="CatalogManager.Склады" category="Manager">
-				<xr:TypeId>dd76e22e-92f4-4bcc-a487-98cd94227779</xr:TypeId>
-				<xr:ValueId>afc09db1-5d96-4759-803c-27624beafbbf</xr:ValueId>
+				<xr:TypeId>b24f5af1-1873-423d-8ad6-7472886b9357</xr:TypeId>
+				<xr:ValueId>1b5d63c6-6b5b-46e0-bd61-243200446bf6</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
@@ -51,7 +51,7 @@
 			<Characteristics/>
 			<PredefinedDataUpdate>Auto</PredefinedDataUpdate>
 			<EditType>InDialog</EditType>
-			<QuickChoice>true</QuickChoice>
+			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
 				<xr:Field>Catalog.Склады.StandardAttribute.Description</xr:Field>

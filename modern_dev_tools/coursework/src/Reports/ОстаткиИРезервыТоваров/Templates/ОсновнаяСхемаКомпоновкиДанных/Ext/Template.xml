@@ -11,14 +11,6 @@
 			<field>Заказ</field>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>НаборСвойств</dataPath>
-			<field>НаборСвойств</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Материал</dataPath>
-			<field>Материал</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>КоличествоВРезерве</dataPath>
 			<field>КоличествоВРезерве</field>
 			<title xsi:type="v8:LocalStringType">
@@ -54,22 +46,27 @@
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ОстаткиСкладов.Материал КАК Товар,
-	ОстаткиСкладов.Склад КАК Склад,
-	ОстаткиСкладов.КоличествоОстаток КАК КоличествоНаСкладе,
-	0 КАК КоличествоВРезерве
+	ОстаткиТоваров.Товар КАК Товар,
+	ОстаткиТоваров.Склад КАК Склад,
+	СУММА(ОстаткиТоваров.КоличествоОстаток) КАК КоличествоНаСкладе,
+	CAST(0 КАК ЧИСЛО(15, 3)) КАК КоличествоВРезерве
 ИЗ
-	РегистрНакопления.ОстаткиМатериалов.Остатки(&amp;ДатаОтчета, ) КАК ОстаткиСкладов
+	РегистрНакопления.ОстаткиТоваров.Остатки(&amp;ДатаНаличия, ) КАК ОстаткиТоваров
+СГРУППИРОВАТЬ ПО
+	ОстаткиТоваров.Товар,
+	ОстаткиТоваров.Склад
 
 ОБЪЕДИНИТЬ ВСЕ
 
 ВЫБРАТЬ
-	Резервы.Товар КАК Товар,
+	РезервыТоваров.Товар КАК Товар,
 	НЕОПРЕДЕЛЕНО КАК Склад,
 	0 КАК КоличествоНаСкладе,
-	Резервы.КоличествоОстаток КАК КоличествоВРезерве
+	СУММА(РезервыТоваров.КоличествоОстаток) КАК КоличествоВРезерве
 ИЗ
-	РегистрНакопления.РезервыТоваров.Остатки(&amp;ДатаОтчета, ) КАК Резервы</query>
+	РегистрНакопления.РезервыТоваров.Остатки(&amp;ДатаНаличия, ) КАК РезервыТоваров
+СГРУППИРОВАТЬ ПО
+	РезервыТоваров.Товар</query>
 	</dataSet>
 	<parameter>
 		<name>Период</name>
@@ -89,11 +86,11 @@
 		<useRestriction>false</useRestriction>
 	</parameter>
 	<parameter>
-		<name>ДатаОтчета</name>
+		<name>ДатаНаличия</name>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
-				<v8:content>Дата отчета</v8:content>
+				<v8:content>Дата наличия</v8:content>
 			</v8:item>
 		</title>
 		<valueType>
@@ -108,6 +105,49 @@
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>
 		<dcsset:presentation xsi:type="xs:string">Основной</dcsset:presentation>
-		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows"/>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоНаСкладе</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КоличествоВРезерве</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Товар</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Склад</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>

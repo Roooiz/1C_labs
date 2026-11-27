@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Report uuid="0e9332f2-837f-4e83-998e-d0d30957d8f8">
+	<Report uuid="a8e962ac-3599-4976-92e4-1bb68d8322ff">
 		<InternalInfo>
 			<xr:GeneratedType name="ReportObject.ОстаткиИРезервыТоваров" category="Object">
-				<xr:TypeId>f97a9846-50d3-4107-ab6e-e113ae8344f9</xr:TypeId>
-				<xr:ValueId>f5ac5eec-13fd-42b9-b533-fe0c7a88c8bb</xr:ValueId>
+				<xr:TypeId>47a3637a-8cd9-42e5-b0b7-61d56186cd09</xr:TypeId>
+				<xr:ValueId>6e5f6c10-7dd3-4263-a31e-47189f7e12d1</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="ReportManager.ОстаткиИРезервыТоваров" category="Manager">
-				<xr:TypeId>29c15269-b2ca-4d6f-b41b-cada8fa0af25</xr:TypeId>
-				<xr:ValueId>db47cdb3-1ffb-49c9-9e78-1db3144fff8e</xr:ValueId>
+				<xr:TypeId>f50a13af-2cb2-4251-b3ad-34cc521bfcaa</xr:TypeId>
+				<xr:ValueId>af0f5454-08e7-4f33-952f-e93976145dfa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
